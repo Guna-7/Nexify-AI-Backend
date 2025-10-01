@@ -40,7 +40,7 @@ pip install -r requirements.txt
 Create a `.env` file in the project root:
 
 ```
-GROQ_API_KEY=your_openai_api_key_here
+GROQ_API_KEY=your_groq_ai_api_key_here
 ```
 
 You can also use `python-decouple` or Django settings directly to manage your API key.
