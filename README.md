@@ -3,7 +3,7 @@
 ## 🐍 **Backend (Django) – `README.md`**
 
 ````text
-# AI Chat App Backend – Django + DRF + GPT-4
+# AI Chat App Backend – Django + DRF + GROQ
 
 This is the backend of a Fullstack AI Chat Application built with Django, Django REST Framework, and integrated with OpenAI's GPT-4 model. It provides a RESTful API for managing chat messages and communicating with the GPT-4 API.
 
@@ -11,7 +11,7 @@ This is the backend of a Fullstack AI Chat Application built with Django, Django
 - Python 3.x
 - Django
 - Django REST Framework
-- OpenAI API (GPT-4)
+- Groq
 
 ## 🚀 Getting Started
 
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 Create a `.env` file in the project root:
 
 ```
-OPENAI_API_KEY=your_openai_api_key_here
+GROQ_API_KEY=your_openai_api_key_here
 ```
 
 You can also use `python-decouple` or Django settings directly to manage your API key.
